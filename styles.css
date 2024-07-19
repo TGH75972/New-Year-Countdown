@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #000;
+    color: #000000;
+    text-align: center;
+}
+
+.container {
+    background: rgb(87, 226, 110);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: wheat;
+}
+
+.time {
+    font-size: 2.5em;
+    margin: 0 10px;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+}
+
+#message {
+    font-size: 1.5em;
+    color: #e94e77;
+}
+
+#extra-info {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #252424;
+}
+
+#extra-info p {
+    margin: 5px 0;
+}
