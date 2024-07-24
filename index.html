@@ -9,17 +9,29 @@
 <body>
     <div class="container">
         <h1>New Year Countdown</h1>
+        <div class="dropdown">
+            <label for="year-select">Select Year:</label>
+            <select id="year-select">
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+            </select>
+        </div>
         <div id="countdown">
             <div class="time" id="days">00</div>
             <div class="time" id="hours">00</div>
             <div class="time" id="minutes">00</div>
             <div class="time" id="seconds">00</div>
         </div>
-        <p id="message"></p>
+        <div id="message">Time Remaining :</div>
         <div id="extra-info">
-            <p id="total-days"> Days: 0</p>
-            <p id="total-months"> Months: 0</p>
-            <p id="total-years"> Years: 0</p>
+            <p id="years-info">Years: 0</p>
+            <p id="months-info">Months: 0</p>
+            <p id="days-info">Days: 0</p>
         </div>
     </div>
     <script src="script.js"></script>
