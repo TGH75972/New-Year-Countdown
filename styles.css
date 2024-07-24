@@ -12,7 +12,6 @@ body {
 }
 
 .container {
-    
     background: linear-gradient(135deg, #4CAF50, #8BC34A);
     padding: 50px;
     border-radius: 15px;
@@ -76,6 +75,30 @@ h1 {
     }
 }
 
+.dropdown {
+    margin-bottom: 20px;
+}
+
+.dropdown label {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.dropdown select {
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    background: #333;
+    color: #ffffff;
+    transition: border 0.3s;
+}
+
+.dropdown select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
 #countdown {
     display: flex;
     justify-content: center;
@@ -115,7 +138,7 @@ h1 {
 
 #message {
     font-size: 1.5em;
-    color: #e94e77;
+    color: #c0e94e;
     animation: fadeIn 2s ease-out, colorShift 3s infinite alternate;
 }
 
@@ -130,23 +153,22 @@ h1 {
 
 @keyframes colorShift {
     0% {
-        color: #e94e77;
+        color: #000000;
     }
     50% {
-        color: #f5a623;
+        color: #4e4d4b;
     }
     100% {
-        color: #e94e77;
+        color: #ffffff;
     }
 }
 
 #extra-info {
-
     background-color: #222;
     border-radius: 10px;
     padding: 10px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 1.2em;
     color: #f5f5f5;
     animation: slideIn 1s ease-out, rotateIn 3s infinite;
